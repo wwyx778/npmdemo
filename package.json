@@ -1,0 +1,41 @@
+{
+  "name": "npmdemo",
+  "version": "1.0.0",
+  "description": "npmdemo",
+  "main": "dist/api.js",
+  "bin": {
+    "todo": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js",
+    "typings/**/*.d.ts"
+  ],
+  "types": "typings/**/*.d.ts",
+  "scripts": {
+    "start": "ts-node cli.ts",
+    "build": "rm -rf dist typings && tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwyx778/npmdemo.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "wwyx778",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwyx778/npmdemo/issues"
+  },
+  "homepage": "https://github.com/wwyx778/npmdemo#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/inquirer": "^6.5.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
