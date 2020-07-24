@@ -1,5 +1,5 @@
 {
-  "name": "npmdemo",
+  "name": "geeksnowy-todos-cli",
   "version": "1.0.0",
   "description": "npmdemo",
   "main": "dist/api.js",
