@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/wwyx778/npmdemo#readme",
   "dependencies": {
-    "commander": "^5.1.0",
-    "inquirer": "^7.1.0"
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^6.5.0",
+    "@types/inquirer": "^7.3.0",
     "@types/node": "^14.0.5",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.3"
